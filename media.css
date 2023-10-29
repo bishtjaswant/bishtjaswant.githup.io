@@ -70,11 +70,15 @@
 
     .tech-stack {
         height: 100vh;
+        margin-bottom: -5.5rem;
     }
+
+    
    .tech-stack .technology{
         grid-template-columns: repeat(auto-fit, minmax(50px, 70px) );
-        row-gap: 1rem;
+        row-gap:0;
         place-items: center;
+        margin-top: .5rem;
     }
 
     .tech-stack .technology svg {
