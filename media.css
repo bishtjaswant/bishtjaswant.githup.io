@@ -1,0 +1,128 @@
+@media screen and (width <=  768px) {
+    html{
+        font-size: 50%;
+    }
+    
+}
+
+
+
+@media screen and (width <= 576px) {
+ 
+    html{
+        font-size: 50%;
+    }
+    
+    nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 15rem;
+    }
+
+    nav .logo{
+        width: fit-content;
+    }
+
+    nav .logo span{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    nav .nav-item a{
+        font-size: 1.4rem;
+        width: 100%;
+        display: block;
+    }
+
+    nav  .icons {
+       margin-block: 1rem;
+    }
+
+    .hero{
+        height: 100vh;
+        flex-direction: column-reverse;
+        margin-top: 35px;
+    }
+
+
+  
+
+    .hero .left-part h1{
+        font-size: 2.8rem; 
+        width: 100%;
+    }
+
+    .hero .left-part {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .hero .right-part {
+        width: 100%;
+     
+    }
+   
+    .hero .right-part img {
+        width: 80%;
+    }
+
+
+    .tech-stack {
+        height: 100vh;
+    }
+   .tech-stack .technology{
+        grid-template-columns: repeat(auto-fit, minmax(50px, 70px) );
+        row-gap: 1rem;
+        place-items: center;
+    }
+
+    .tech-stack .technology svg {
+        width: 7.4rem;
+        aspect-ratio: 1;
+    }
+
+
+    .projects .cards{
+        margin-top: 5rem;
+    }
+
+    .projects .cards .card .card-content .card-title {
+        text-align: center;
+    }
+
+    .projects .cards .card .tech-info p{
+        font-size: 1.4rem;
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact .detail{
+        flex-direction: column;
+        gap: .4rem;
+    }
+    .contact  .icons {
+        margin-block: 3rem;
+    }
+
+    .footer     {
+        flex-direction: column;
+    }
+
+    .footer .footer-right, .footer .footer-left{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer .footer-left ul{
+        gap: 1rem;
+    }
+
+    .footer .footer-right  p {
+        margin-top: 0;
+    }
+
+
+}
